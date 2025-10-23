@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ala Buddy's House</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <header>
+  <nav class="navbar">
+    <div class="nav-left">
+      <h1 class="logo">Ala Buddy's House</h1>
+    </div>
+
+    <!-- hamburger (keeps on the right) -->
+    <button class="menu-toggle" id="mobile-menu" aria-label="Toggle menu">&#9776;</button>
+
+    <!-- nav links (hidden on mobile) -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#menu" class="nav-link">Menu</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-text animate">
+      <h2>Welcome to Ala Buddy's House</h2>
+      <p>Delicious Filipino and international dishes made with love.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- Featured Dishes Slider -->
+  <section class="slider-section">
+    <h2>Featured Dishes</h2>
+    <div class="slider">
+      <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+      <div class="slides">
+        <div class="slide"><img src="Beef Mami1.jpg" alt="Beef Mami"><p>Beef Mami</p></div>
+        <div class="slide"><img src="Lechong Kawali.jpg" alt="Lechong Kawali"><p>Lechong Kawali</p></div>
+        <div class="slide"><img src="Sisig.jpg" alt="Sisig"><p>Sisig</p></div>
+        <div class="slide"><img src="Wrap chixs fajita.jpg" alt="Wrap chixs fajita"><p>Wrap chixs fajita</p></div>
+        <div class="slide"><img src="sweet&sourpork.jpg" alt="Sweet&Sourpork"><p>Sweet&Sourpork</p></div>
+      </div>
+      
+      <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu animate">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <img src="Friedricewithlumpia.jpg" alt="Fried Rice">
+        <h3>Fried Rice with Lumpia</h3>
+        <p>Golden fried rice served with crispy spring rolls.</p>
+      </div>
+      <div class="card">
+        <img src="Barbecue.jpg" alt="Barbecue">
+        <h3>Filipino Barbecue</h3>
+        <p>Sweet and savory grilled pork skewers — a street favorite.</p>
+      </div>
+      <div class="card">
+        <img src="Beef Mami1.jpg" alt="Beef Mami">
+        <h3>Beef Mami</h3>
+        <p>Rich noodle soup with pork, liver, and crushed chicharon.</p>
+      </div>
+      <div class="card">
+        <img src="Spaghetti.jpg" alt="Spaghetti">
+        <h3>Filipino Spaghetti</h3>
+        <p>Sweet-style pasta with hotdogs and cheese — Pinoy comfort food!</p>
+      </div>
+      <div class="card">
+        <img src="sweet&sourpork.jpg" alt="Sweet&Sourpork">
+        <h3>Sweet&Sourpork</h3>
+        <p>Sweet-style pasta with hotdogs and cheese — Pinoy comfort food!</p>
+      </div>
+      <div class="card">
+        <img src="Chapsuy.jpg" alt="Chapsuy">
+        <h3>Chapsuy</h3>
+        <p>Chop Suey is a stir-fried vegetable dish that is cooked with meats such as chicken and pork!</p>
+      </div>
+      <div class="card">
+        <img src="Lechong Kawali.jpg" alt="Lechong Kawali">
+        <h3>Lechong Kawali</h3>
+        <p>Lechon Kawali is a Filipino crispy deep fried pork belly dish!</p>
+      </div>
+      <div class="card">
+        <img src="Wrap chixs fajita.jpg" alt="Wrap Chixs Fajita">
+        <h3>Wrap Chixs Fajita</h3>
+        <p>Grilled chicken with bell peppers and onions wrapped in a soft tortilla — smoky, juicy, and full of flavor!</p>
+      </div>
+      <div class="card">
+        <img src="Tofu sisig.jpeg" alt="Tofu sisig">
+        <h3>Tofu sisig</h3>
+        <p>Crispy tofu tossed in a creamy, savory sauce with onions and chili — a delicious meat-free favorite!</p>
+      </div>
+      <div class="card">
+        <img src="Sisig.jpg" alt="Sisig">
+        <h3>Sisig</h3>
+        <p>Sizzling chopped pork mixed with onions, chili, and a tangy sauce — savory, crunchy, and irresistibly flavorful!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about animate">
+    <h2>About Us</h2>
+    <p>Ala Buddy's House, we bring family and friends together with heartwarming meals. From crispy lumpia to savory Beef Mami and Filipino-style spaghetti — every bite is a story of home.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <p><strong>📍 Address:</strong> 123 Mabini Street, Manila, Philippines</p>
+    <p><strong>📞 Phone:</strong> (63) 993 853 8445</p>
+    <p><strong>📧 Email:</strong> chinglorence@gmail.com</p>
+    <p><strong>🕒 Open Hours:</strong> Mon–Sun, 10:00 AM – 10:00 PM</p>
+    <div class="social-links">
+      <a href="#" target="_blank">Facebook</a> |
+      <a href="#" target="_blank">Instagram</a> |
+      <a href="#" target="_blank">Tiktok</a>
+    </div>
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 Ala Buddy's House | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
